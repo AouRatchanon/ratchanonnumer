@@ -115,9 +115,9 @@ class Secant extends Component {
                             onChange={this.handleChange}
                         >
                             <div>
-                                <h>f(x)</h> <Input size="large" name="fx" ></Input>
-                                <h>X<sub>0</sub></h> <Input size="large" name="x0" ></Input>
-                                <h>X<sub>1</sub></h> <Input size="large" name="x1" ></Input>
+                                <h2>f(x)</h2> <Input size="large" name="fx" ></Input>
+                                <h2>X<sub>0</sub></h2> <Input size="large" name="x0" ></Input>
+                                <h2>X<sub>1</sub></h2> <Input size="large" name="x1" ></Input>
                             </div>
                             <br />
                             <Button

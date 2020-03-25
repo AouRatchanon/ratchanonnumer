@@ -83,10 +83,10 @@ class backward extends Component {
                             onChange={this.handleChange}
                         >
                             <div>
-                                <h>f(x)</h> <Input size="large" name="fx"></Input>
-                                <h>Diff</h> <Input size="large" name="degree" ></Input>
-                                <h>X</h> <Input size="large" name="x" ></Input>
-                                <h>H</h> <Input size="large" name="h" ></Input>
+                                <h2>f(x)</h2> <Input size="large" name="fx"></Input>
+                                <h2>Diff</h2> <Input size="large" name="degree" ></Input>
+                                <h2>X</h2> <Input size="large" name="x" ></Input>
+                                <h2>H</h2> <Input size="large" name="h" ></Input>
                             </div>
                             <br />
                             <Button
@@ -113,7 +113,7 @@ class backward extends Component {
                             onChange={this.handleChange}
                         >
                             <div>
-                                <h>Number</h> <Input size="large" name="number"></Input>
+                                <h2>Number</h2> <Input size="large" name="number"></Input>
                             </div>
                             <br />
                             <Button
